@@ -1,0 +1,955 @@
+$body-text-color: #444;
+$body-font: Arial;
+$body-normal: 400;
+$base-line-height: 1.3;
+
+@import 'settings/settings';
+@import 'tools/tools';
+@import 'elements';
+@import 'utilities/utilities';
+
+body{
+    background-size: cover;
+}
+.topcolor5 {
+    background-color:#9fd199;
+    height: 13px;
+    width: 100%;
+
+
+}
+
+.container-fluid{
+    width:100%;
+}
+
+
+h1 {
+    font-size: 55px;
+    font-family: ChunkFive-Roman;
+    color: #575159;
+    margin-left:100px;
+    margin-right:100px;
+    
+}
+
+p {
+    font-size:23px;
+    font-family:Lato-Regular;
+    color:#575159;
+    line-height: 32px;
+    margin-left:100px;
+    margin-right:100px;
+    
+
+}
+.learn {
+    font-size: 23px;
+    color: #92719e;
+    font-family:Lato-Regular;
+    margin-left:100px;
+    margin-right:100px;
+
+}
+.container-fluid,.row,.image {
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    min-height: 100%;
+}
+
+.top {
+    background-color: #9fd199;
+    height: 13px;
+    width: 100%;
+}
+@media($xl-and-up) 
+{ 
+    body {
+background-image:none;
+}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+body {
+    background-image:none;
+}
+    .learn { 
+   margin-right:35%;
+   margin-left: 35%;
+}
+
+
+
+img{
+    min-height: 100%;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .image{
+        display:none;
+    }
+    .container-fluid {
+        border: 2px solid #979797;
+        background-color:rgba(255, 255, 255, 0.79);
+           margin-top:150px;
+        width: 100%;
+        height:70%;
+        }
+    .row,.image {
+            height: 100%;
+            width: 100%;   
+
+    }
+    p, h1{
+        width:100%;
+        height:100%;
+        margin-left:200px;
+        margin-right:200px;
+    }
+   
+    .learn {
+        margin-left: 200px;
+        margin-right:15px;
+        
+    }
+}
+
+.img1, .img2, .img3 {
+    width: 100%;
+    margin-top:10%;
+    margin-bottom:10%;
+
+}
+.img3 {
+    margin-bottom:50%;
+}
+
+@media only screen and (min-width: 320px) and (max-height: 1011px) {
+    
+        .row {
+            height: 100%;
+            width: 100%;
+        }
+        .image{
+        display:none;
+    }
+    .container-fluid {
+        border: 2px solid #979797;
+        background-color:rgba(255, 255, 255, 0.79);
+            
+          
+        width: 100%;
+        height:50%;
+        
+
+    }
+    p, h1{
+        width:100%;
+        height:100%;
+        margin-left:200px;
+        margin-right:200px;
+        font-size: 16px;
+        line-height:28px;
+        margin-bottom: 20%;
+    }
+    .learn {
+        margin-left: 200px;
+        margin-right:50px;
+        font-size: 16px;
+        
+        
+    }
+}
+body {
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+
+@media (min-width:0px) and (max-width:767px)
+{
+    .top {
+        background-color: #9fd199;
+        height: 13px;
+        width: 100%;
+    }
+ .row {
+        height: 100%;
+        width: 100%;
+    }
+    .image{
+        display:none;
+    }
+    
+    .container-fluid {
+        border: 2px solid #979797;
+    background-color:rgba(255, 255, 255, 0.79);
+       margin:6% auto;
+    max-height:95%;
+    width:80%;
+    
+    
+    }
+    p{
+        display: flex;
+     
+        font-size:16px;
+        margin-left:15%;
+        margin-right:15%;
+        margin-top:52px;
+    }
+    h1 {
+        margin-top:10px;
+        font-size:36px;
+       
+        margin-left:15%;
+        margin-right: 15%;
+        line-height:28px;
+        
+    }
+    .learn {
+        display: flex;
+        margin-top:10px;
+        font-size:16px;
+        width:100%;
+        margin-left:70px;
+       
+    }
+}
+
+.topcolor {
+  
+    height:192px;
+    width: 100%;
+}
+
+h3 {
+    color:#575159;
+    font-family:ChunkFive-Roman;
+    margin-left: 126px;
+    margin-top:50px;
+    font-size:53px;
+
+
+
+
+}
+h4 {
+    font-family: Lato-Regular;
+    color: #575159;
+margin-top:50px;
+font-size: 22px;
+margin-left:126px;
+margin-bottom: 50px;
+
+}
+
+h5 {
+    font-family: Lato-Regular;
+    color: #575159;
+
+font-size: 22px;
+margin-left: 126px;
+margin-right:630px;
+
+
+
+}
+.image1 {
+    margin-left:300px;
+}
+
+h6 {
+    font-family: Lato-Regular;
+    color: #575159;
+
+font-size: 22px;
+margin-left:126px;
+
+}
+
+.footimage {
+    width: 100%;
+    height:150px;
+    
+}
+.row1{
+    background-color:#9fd199;
+    height:auto;
+}
+.image2 {
+    margin-left:126px;
+}
+
+.text2 {
+    font-family: Lato-Regular;
+    color: #575159;
+margin-top:50px;
+font-size: 22px;
+margin-right:100px;
+margin-bottom: 50px;
+}
+
+
+.topcolor2 {
+ 
+    height:192px;
+    width: 100%;
+}
+.resume {
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 53px;
+ }
+ 
+ .resume1 {
+    margin-left: 9%;
+    font-size: 30px;
+    line-height: 49px;
+    margin-right: 9%;
+    margin-top: 2%;
+    font-family: "lato", sans-serif;
+    font-style: regular;
+ }
+ .work {
+    margin-left: 6%;
+    margin-top: 7%;
+ }
+ h3 {
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: -8%;
+ }
+ 
+ .company {
+    font-size: 20px;
+    margin-left: 30%;
+ }
+ 
+ .showmore {
+    margin-left: 14%;
+    text-decoration: none;
+    color: #92719e;
+ }
+ .image1 {
+    width: 112px;
+    height: 112px;
+    border-radius: 100px;
+    margin-left: 14%;
+    margin-bottom:2%;
+ }
+ .imageone {
+    border-radius: 100px;
+ }
+ .click {
+    color: white;
+    display: inline-block;;
+ }
+ 
+ 
+ .col {
+    border: 1px solid rgba(122, 120, 123, 0.31);
+    margin-top: 4%;
+    margin-left: 0%;
+    margin-right: 18%;
+    width: 90%;
+ }
+ 
+ .mywork {
+    margin-left: 10%;
+    font-size: 18px;
+    margin-right: 16%;
+    font-family: "lato", sans-serif;
+    font-style: regular;
+ }
+ 
+ .work1 {
+    padding: 5px;
+ }
+ .place2,
+ .place3 {
+    margin-top: 3%;
+ }
+ .lock2 {
+    background-color: #9fd199;
+    margin-top: 7%;
+ }
+ 
+ .form h1 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 53px;
+    color: #575159;
+ }
+ 
+ label {
+    font-size: 21px;
+    color: #575159;
+    margin-top: 6%;
+    padding: 5px;
+ }
+ .firstname,
+ .email {
+    margin-left: 28%;
+    margin-right: 51%;
+    width: 478px;
+    height: 55px;
+    border: 1px solid #575159;
+ }
+ 
+ .lastname,
+ .phonenumber {
+    width: 478px;
+    height: 55px;
+    border: 1px solid #575159;
+ }
+ 
+ .box1 label {
+    margin-left: 28%;
+ }
+ 
+ .box3 label {
+    margin-left: 28%;
+ }
+ .box5 label {
+    margin-left: 15%;
+ }
+ 
+ :placeholder-shown {
+    font-size: 20px;
+    padding: 10px;
+    color: #b8b8b8;
+ }
+ 
+ .contactbox2 {
+    width: 95%;
+ }
+ .message {
+    width: 73%;
+    height: 272px;
+    margin-left: 14%;
+    margin-right: 0%;
+ }
+ 
+ .button {
+    margin-left: 70%;
+    margin-top: 4%;
+    margin-bottom: 10%;
+ }
+ .sendbutton {
+    width: 145px;
+    height: 48px;
+    background-color: #575159;
+    font-size: 21px;
+    color: white;
+    border: 2px solid #575159;
+ }
+ @media (min-width: 1024px) and (max-width: 1439px) {
+    .profilepic {
+       width: 162px;
+       height: 162px;
+    }
+    .image1{
+    margin-left:10%;
+    }
+    .work {
+       margin-left: 14%;
+       margin-top: 3%;
+    }
+    h3{
+       margin-left:24%;
+    }
+    .company{
+       margin-left:24%;
+    }
+ 
+    .showmore {
+       margin-left: 10%;
+    }
+ 
+    .mywork {
+       margin-left: 5%;
+       font-size: 18px;
+       margin-right: 16%;
+    }
+ 
+    .lock2 {
+       margin-top: 2%;
+    }
+ 
+    .box1 label {
+       margin-left: 3%;
+    }
+ 
+    .box3 label {
+       margin-left: 3%;
+    }
+    .box5 label {
+       margin-left: 2%;
+    }
+    .firstname,
+    .email {
+       margin-left: 2%;
+    }
+    .message {
+       display: flex;
+       width: 100%;
+       margin-left: 1%;
+       margin-right: 1%;
+       padding-left: 5px;
+    }
+ }
+ 
+ @media (min-width: 767px) and (max-width: 1023px) {
+    .resume {
+       font-size: 45px;
+    }
+    .resume1 {
+       font-size: 25px;
+       line-height: 42px;
+    }
+ 
+    .work{
+       margin-left: 9%;
+    }
+    .image1{
+       margin-left:0%;
+    }
+    h3{
+       margin-left:20%;
+       margin-top:-10%;
+    }
+    .company{
+       margin-left:20%;
+    }
+    .showmore {
+       margin-left: 0%;
+    }
+ 
+    .mywork {
+       margin-left: -3.5%;
+       font-size: 16px;
+    }
+ 
+    .form h1 {
+       margin-top: 5.1%;
+       font-size: 40px;
+    }
+ 
+    .box1 label {
+       margin-left: 8.5%;
+       margin-top: 2%;
+       font-size: 21px;
+    }
+    .box2 label {
+       margin-left: 8.5%;
+       margin-top: 3%;
+       font-size: 21px;
+    }
+    .box3 label {
+       margin-left: 8.5%;
+       margin-top: 3%;
+       font-size: 21px;
+    }
+    .box4 label {
+       margin-left: 8.5%;
+       margin-top: 3%;
+       font-size: 21px;
+    }
+    .box5 label {
+       margin-left: 8.5%;
+       margin-top: 5%;
+       font-size: 21px;
+    }
+ 
+    .firstname,
+    .lastname,
+    .email,
+    .phonenumber {
+       width: 82%;
+    }
+ 
+    .firstname,
+    .lastname,
+    .email,
+    .phonenumber {
+       margin-left: 9%;
+       margin-right: 9%;
+    }
+ 
+    .message {
+       width: 85%;
+       margin-left: 9%;
+       margin-right: 9%;
+    }
+ }
+ 
+ @media (min-width: 320px) and (max-width: 766px) {
+    .headercolor {
+       width: 100%;
+       height: 70px;
+    }
+    .profilepic {
+       width: 49px;
+       height: 49px;
+       margin-top: 3.2%;
+    }
+    .image1 {
+       margin-left: 42%;
+    }
+    .col {
+       display: none;
+    }
+    .resume {
+       font-size: 30px;
+       margin-left: 40%;
+    }
+    .resume1 {
+       font-size: 16px;
+       line-height: 27px;
+       margin-top: 2%;
+    }
+    .imageone {
+       width: 48px;
+       height: 48px;
+       background-color: red;
+       border-radius: 200px;
+    }
+    .showmore {
+       display: none;
+    }
+    .click {
+       color: #92719e;
+       margin-left: 50%;
+    }
+    .fas {
+       display: block;
+    }
+ 
+    .workexperience {
+       margin-top: 5%;
+       margin-left: 1%;
+    }
+ 
+    h3 {
+       margin-left: 0px;
+       text-align: center;
+       font-size: 20px;
+       padding-bottom: 2px;
+       margin-top: 4%;
+    }
+    .company {
+       margin: 0px;
+       text-align: center;
+       margin-bottom: 1%;
+    }
+    .workexperience img {
+       text-align: center;
+       margin-left: 0px;
+       margin-top: 4%;
+    }
+    .place2 {
+       margin-top: 2%;
+    }
+    .mywork {
+       list-style-type: none;
+       margin-left: 5%;
+       width: 100%;
+       padding: 3%;
+    }
+ 
+    .showmore {
+       margin-left: 0px;
+    }
+    .lock2 {
+       margin-top: 2%;
+    }
+ 
+    .form h1 {
+       font-size: 30px;
+    }
+    .box1 label {
+       display: none;
+    }
+    .box2 label {
+       display: none;
+    }
+    .box3 label {
+       display: none;
+    }
+    .box4 label {
+       display: none;
+    }
+    .box5 label {
+       margin-left: 8.8%;
+       font-size: 16px;
+    }
+    .firstname,
+    .lastname,
+    .email,
+    .phonenumber {
+       width: 82.4%;
+       margin-left: 8.8%;
+       margin-right: 8.8%;
+    }
+    .message {
+       width: 85%;
+       margin-left: 9%;
+    }
+    button {
+       margin-left: 0;
+    }
+    .button {
+       margin-bottom: 10%;
+       max-width: 90%;
+    }
+ }
+ 
+
+li {
+    font-size: 18px;
+    color:#575159;
+    font-family:Lato-Regular;
+    margin-left:251px;
+    margin-top:20px;
+
+}
+
+
+label {
+    font-size: 21px;
+    color:#575159;
+    padding:5px;
+
+
+  }
+  .firstname,.email{
+    margin-left:28%;
+    margin-right: 51%;
+    width:478px;
+    height: 55px;
+    border:1px solid #575159;
+}
+
+.lastname,.phonenumber{
+    width:478px;
+    height: 55px;
+    border:1px solid #575159;
+    
+}
+
+
+
+
+.message{
+    width:70%;
+    height: 272px;
+    margin-left:15%;
+    margin-right:20%;
+}
+
+.button{
+   margin-left: 45%;
+ 
+   margin-bottom:15%;
+
+}
+
+
+ .row2 {
+     height: 40%;
+     background-color:#9fd199;
+ }
+ .container1{
+     margin-top:20%;
+ }
+
+ @media  (min-width:1024px) and (max-width:1439px){
+    body{
+       height: 1970px;
+    }
+
+    .pic{
+       width:162px;
+       height: 162px;
+    }
+
+    .footer{
+       display:none;
+    }
+
+    .h1{
+       margin-top:7%;
+       width:83%;
+    }
+
+    .h2{
+       margin-top:1%;
+       margin-bottom:10%;
+       width:70%;
+
+    }
+    .image1{
+       margin-top:10%;
+     
+ 
+    }
+    .h3{
+       width:70%;
+       margin-left:25%;
+      
+    }
+    
+    .h4{
+       width:70%;
+       margin-top:20%;
+    }
+    .image3{
+       margin-top:35%;
+    
+    }
+}
+@media (min-width:320px) and (max-width:767px){
+    *{
+       margin:0;
+       padding:0;
+    }
+    .topcolor{
+       height: 65px;
+ 
+    }
+    .pic{
+       width:50px;
+       height: 50px;
+       margin-top:5%;
+    }
+    .footer{
+       display:none;
+    }
+     .row1,.row2 {
+       display: flex;
+       display:-moz-box;
+       flex-direction: column-reverse;
+    }
+    .aboutrows{
+       width:100%;
+       margin-top:30%;
+    }
+    .h1{
+       font-size: 35px;
+       text-align: center;
+       margin-bottom:0;
+       margin-left:0;
+       margin-right: 0;
+       margin-top:5%;
+    }
+    
+    .image1{
+       width:100%;
+       margin:0;
+      
+    }
+    .h3{
+       font-size: 18px;
+       line-height:26px;
+       margin-top:8%;
+       margin-bottom:8%;
+       width:80%;
+ 
+    }
+    .row2{
+       background-color:white;
+       margin-top:25%;
+    }
+    .image2{
+       margin:0;
+       width:100%;
+   
+ 
+    }
+    .h4{
+       margin-top:8%;
+        font-size: 18px;
+       line-height:26px;
+             width:80%;
+ 
+    }
+    .row2{
+       margin-top:2%;
+    }
+    .image3{
+       width:100%;
+       margin:0;
+ 
+    }
+    .h5{
+       width:80%;
+        font-size: 18px;
+       line-height:26px;
+    }
+ }
+ @media (min-width:1024px) and (max-width:1439px){
+     
+    .profilepic{
+       width:162px;
+       height: 162px;
+    }
+ .work {
+ margin-left: 14%;
+ margin-top: 3%;
+}
+
+.showmore{
+ margin-left:10%;
+}
+
+.mywork {
+ margin-left: 5%;
+ font-size: 18px;
+ margin-right: 16%;
+}
+
+
+.lock2 {
+ 
+ margin-top: 2%;
+ 
+}
+
+.box1 label{
+  margin-left: 3%;
+
+}
+
+.box3 label{
+  margin-left: 3%;
+ 
+}
+.box5 label{
+ margin-left:2%;
+}
+.firstname,.email{
+  margin-left:2%;
+}
+.message{
+ display:flex;
+  width:100%;
+  margin-left:1%;
+  margin-right:1%;
+ padding-left:5px;
+}
+}
+@media (min-width:320px) and (max-width:766px){
+    .topcolor2{
+       width:100%;
+       height: 70px;;
+    }
+    .pic{
+       width:50px;
+       height: 50px;
+       
+    }
+}
